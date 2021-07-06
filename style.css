@@ -1,0 +1,110 @@
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+.top-banner {
+  padding: 70px 0 100px 0;
+}
+.flexiable-section {
+  display: flex;
+  align-items: center;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.flexiable-section .welcome-head {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #333;
+}
+.flexiable-section .welcome-head span {
+  color: #0386f7;
+}
+.flexiable-section p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.flexiable-section .order-btn,
+.flexiable-section .contact-btn {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #41b7fc, #034d8a);
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(65, 183, 252, 0.4), 0 0 10px rgba(65, 183, 252, 0.4);
+}
+.flexiable-section img {
+  width: 85%;
+}
+.about-me {
+  background-image: url(images/shapes/Frame57.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+}
+.sec-head {
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #333;
+}
+.about-me p {
+  margin-bottom: 70px;
+}
+.recipies-section {
+  text-align: center;
+  padding: 30px 0 100px 0;
+}
+.recipies-section .various-recipe {
+  display: flex;
+  margin-top: 30px;
+}
+.one-third {
+  width: 30%;
+  margin-left: 5%;
+  padding: 15px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+#one-third-last {
+  margin-right: 5%;
+}
+.one-third .recipe-text {
+  text-align: left;
+  padding: 0 25px;
+}
+.one-third h4 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.one-third p {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #333;
+}
+.one-third img {
+  width: 85%;
+  border-radius: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 30px 50px;
+}
+footer h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: normal;
+}
+footer h2 span {
+  color: #0386f7;
+}
+footer p {
+  color: #ccc;
+  font-size: 14px;
+}
