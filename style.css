@@ -2,6 +2,10 @@ body {
   font-family: "Rubik", sans-serif;
   margin: 0;
 }
+p {
+  color: #555;
+  line-height: 1.5em;
+}
 .top-banner {
   padding: 70px 0 100px 0;
 }
@@ -14,18 +18,18 @@ body {
   margin-left: 5%;
   padding-left: 2%;
 }
-.flexiable-section .welcome-head {
+.flexiable-section .welcome-text {
   font-size: 50px;
   text-transform: capitalize;
   color: #333;
 }
-.flexiable-section .welcome-head span {
+.flexiable-section .welcome-text span {
   color: #0386f7;
 }
-.flexiable-section p {
+.flexiable-section .welcome-content p {
   font-size: 18px;
-  line-height: 1.5em;
   margin-bottom: 50px;
+  color: #777;
 }
 
 .flexiable-section .order-btn,
@@ -63,32 +67,55 @@ body {
   display: flex;
   margin-top: 30px;
 }
-.one-third {
-  width: 30%;
+.recipies-section .one-third {
+  width: 28%;
   margin-left: 5%;
   padding: 15px 0;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-#one-third-last {
+.recipies-section #one-third-last {
   margin-right: 5%;
 }
-.one-third .recipe-text {
+.recipies-section .one-third .recipe-text {
   text-align: left;
   padding: 0 25px;
 }
-.one-third h4 {
+.recipies-section .one-third h4 {
   font-size: 25px;
   margin-bottom: 0;
-}
-.one-third p {
-  font-size: 14px;
-  line-height: 1.5em;
   color: #333;
 }
-.one-third img {
+.recipies-section .one-third p {
+  font-size: 14px;
+}
+.recipies-section .one-third img {
   width: 85%;
   border-radius: 20px;
+}
+.stat-section {
+  padding-bottom: 70px;
+}
+.stat-section .social-stat {
+  display: flex;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.stat-section  .stat-num {
+  font-weight: bold;
+  font-size: 40px;
+  color: #333;
+}
+.stat-section .social-stat p {
+  margin-bottom: 0;
+}
+.stat-section .social-stat .stat-one-third {
+  width: 23%;
+  margin-left: 10%;
+  padding: 30px 0;
 }
 footer {
   text-align: center;
@@ -98,7 +125,7 @@ footer {
 footer h2 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #666;
+  color: #777;
   font-weight: normal;
 }
 footer h2 span {
